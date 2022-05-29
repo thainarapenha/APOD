@@ -1,12 +1,11 @@
 
 // função do botão enviar
 $("#btnEnviar").click(function(){
-    verAPI();
+    chamarAPI();
 });
 // a ação do botão retorna a chamada de outra função
 function chamarAPI(){
     const data = $("#data").val();
-    return pedidoAPI(data)
 }
 
 function pedidoAPI(procurar){
