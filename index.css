@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav, .container-main{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    border: 1px solid red;
+}
+.nav img{
+    width: 100%;
+    max-width: 70px;
+}
+.container-main{
+    height: 80vh;
+    font-size: 25px;
+    flex-direction: column;
+}
+.container-main strong{
+    color: blue;
+}
+.areaDATA{
+    padding-top: 20px;
+}
+#data, #btnEnviar{
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    color: blue;
+    border-radius: 5px;
+    border: 1px solid blue;
+    background: white;
+}
+#btnEnviar{
+    width: 100px;
+    height: 32px;
+}
+.rodape{
+    display: flex;
+    justify-content: center;
+}
+.rodape p, a{
+    color: blue;
+    text-decoration: none;
+}
+
+#btnEnviar:hover{
+    cursor: pointer;
+    color: white;
+    background: blue;
+}
