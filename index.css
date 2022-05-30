@@ -9,14 +9,14 @@ body{
     display: flex;
     padding: 10px;
     align-items: center;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .nav img{
     width: 100%;
     max-width: 70px;
 }
 .container-main{
-    height: 80vh;
+    height: 100vh;
     font-size: 25px;
     flex-direction: column;
 }
@@ -26,7 +26,7 @@ body{
 .areaDATA{
     padding-top: 20px;
 }
-#data, #btnEnviar{
+#IDdata, #IDEnviar{
     width: 200px;
     height: 30px;
     text-align: center;
@@ -35,7 +35,25 @@ body{
     border: 1px solid blue;
     background: white;
 }
-#btnEnviar{
+.areaExibir{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+}
+#IDimg img{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    /* border: 1px solid green; */
+}
+#IDtxt{
+    font-size: 20px;
+    margin: 0 50px;
+    /* border: 1px solid blue; */
+}
+#IDEnviar{
     width: 100px;
     height: 32px;
 }
@@ -44,11 +62,12 @@ body{
     justify-content: center;
 }
 .rodape p, a{
+    padding: 40px 0 10px 0;
     color: blue;
     text-decoration: none;
 }
 
-#btnEnviar:hover{
+#IDEnviar:hover{
     cursor: pointer;
     color: white;
     background: blue;
